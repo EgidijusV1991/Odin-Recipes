@@ -30,6 +30,18 @@ ol {
 }
 
 a {
-    color: rgb(20, 14, 94)0, 255, 64);
+    all:unset;
     font-size: 18px;
+    color: rgb(22, 0, 121);
 }
+.mainPageList {
+    display: flex;
+    list-style: none;
+}
+.mainPageList li{
+    margin: 0 15px;
+    border: 2px rgb(112, 19, 19) solid;
+    margin: 0 10px;
+    padding: 15px;
+}
+
